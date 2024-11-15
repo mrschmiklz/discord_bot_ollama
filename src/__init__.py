@@ -1,0 +1,3 @@
+"""
+Discord Ollama Bot package
+""" 

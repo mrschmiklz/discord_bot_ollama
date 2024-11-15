@@ -1,0 +1,10 @@
+discord-ollama-bot/
+├── .env.example
+├── .gitignore
+├── requirements.txt
+├── README.md
+├── main.py
+└── src/
+    ├── __init__.py
+    ├── bot.py
+    └── test_ollama.py 
