@@ -10,7 +10,7 @@ load_dotenv()
 class OllamaModelManager:
     def __init__(self):
         """Initialize the Ollama Model Manager with the base URL from environment variables"""
-        self.base_url = os.getenv('OLLAMA_HOST', 'http://192.168.1.9:11434')
+        self.base_url = os.getenv('OLLAMA_HOST', 'http://localhost:11434')
         self.models_file = 'ollama_models.json'
 
     async def fetch_models(self):
